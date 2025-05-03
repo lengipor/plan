@@ -122,6 +122,8 @@ document.addEventListener("click", (e) => {
 // ========== Placeholder Navigation Functions ==========
 
 // Navigate to login page
+
+// Navigate to login page
 function Login_Item() {
     window.location.href = "assets/bin/login.html";
 }
