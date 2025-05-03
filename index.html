@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BNMC Landing</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="./assets/src/css/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">BNMC</a>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+                <i class="bi bi-list"></i>
+            </button>
+            <ul class="navbar-nav">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#service" class="nav-link">Service</a></li>
+                <li><a href="#advantage" class="nav-link">Advantage</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="btn-group">
+                <button class="mode-toggle" id="themeToggle">
+                    <i class="bi bi-circle-half"></i>
+                    <span>Auto</span>
+                </button>
+                <button class="mode-toggle" onclick="Login_Item()">ចូលគណនី</button>
+                <button class="mode-toggle" onclick="Signs_()">ចុះឈ្មោះ</button>
+            </div>
+            <!-- <h1>V</h1> -->
+            <ul class="navbar-nav-2" id="mobile-menu">
+                <div style="padding: 0px 0px 5px 0 ;">
+                    <h1>Business national monistry </h1>
+                <p>Cambodia <span>⭐</span></p>
+                </div>
+                <hr style="margin: 1rem auto; display:flex; width:100%; height: 1px;">
+                <!-- <hr> -->
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#service" class="nav-link">Service</a></li>
+                <li><a href="#advantage" class="nav-link">Advantage</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <hr style="margin: 2rem auto; display:flex; width:100%; height: 1px;">
+                <li>
+                    <button class="mode-toggle mobile-mode-toggle" id="mobileThemeToggle">
+                        <i class="bi bi-circle-half"></i>
+                        <span></span>
+                    </button>
+                </li>
+                <li><a href="#" class="nav-link"  onclick="Login_Item()">ចូលគណនី</a></li>
+                <li><a href="#" class="nav-link" onclick="Signs_()">ចុះឈ្មោះ</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main class="banner">
+        <section class="sec1" id="home">
+            <h1>Homepage</h1>
+        </section>
+        <section class="sec1" id="about">
+            <h1>Aboutpage</h1>
+        </section>
+        <section class="sec1" id="service">
+            <h1>Service on page</h1>
+        </section>
+        <section class="sec1" id="advantage">
+            <h1>Advantage on page</h1>
+        </section>
+        <section class="sec1" id="contact">
+            <h1>Contact on page</h1>
+        </section>
+    </main>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+    <script src="./assets/src/js/index.js"></script>
+</body>
+</html>
