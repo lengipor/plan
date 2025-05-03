@@ -123,7 +123,7 @@ document.addEventListener("click", (e) => {
 
 // Navigate to login page
 function Login_Item() {
-    window.location.href = "../bin/login.html";
+    window.location.href = "assets/bin/login.html";
 }
 
 // Navigate to signup page
