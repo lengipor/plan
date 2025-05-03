@@ -227,7 +227,7 @@ body {
 hr{
     border: none;
     background-color: var(--bg-color);
-    /* margin: 1rem auto; */
+    margin: 1rem auto;
 }
 .navbar-nav-2 h1{
     /* margin-left: 5px; */
